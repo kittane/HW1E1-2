@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         trueButton.setOnClickListener{view: View ->
             Toast.makeText(
                 this,
-                R.string.true_button,
+                R.string.correct_toast,
                 Toast.LENGTH_SHORT)
                 .show()
         }
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         falseButton.setOnClickListener{view: View ->
             Toast.makeText(
                 this,
-                R.string.false_button,
+                R.string.incorrect_toast,
                 Toast.LENGTH_SHORT)
                 .show()
         }
